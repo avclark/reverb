@@ -12443,12 +12443,7 @@ a.text-primary-light:hover, a.text-primary-light:focus {
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
-  border-width: 0;
-  border-top: 4px solid;
-  -o-border-image: -o-linear-gradient(left, #575A7B, #575A7B 20%, #F9655B 20%, #F9655B 40%, #F5C070 40%, #F5C070 60%, #6658EA 60%, #6658EA 80%, #FFCCCC 80%) 1;
-     border-image: -webkit-gradient(linear, left top, right top, from(#575A7B), color-stop(20%, #575A7B), color-stop(20%, #F9655B), color-stop(40%, #F9655B), color-stop(40%, #F5C070), color-stop(60%, #F5C070), color-stop(60%, #6658EA), color-stop(80%, #6658EA), color-stop(80%, #FFCCCC)) 1;
-     border-image: linear-gradient(to right, #575A7B, #575A7B 20%, #F9655B 20%, #F9655B 40%, #F5C070 40%, #F5C070 60%, #6658EA 60%, #6658EA 80%, #FFCCCC 80%) 1; }
+  width: 100%; }
 
 .navbar-brand {
   font-family: "DM Serif Display", serif; }
