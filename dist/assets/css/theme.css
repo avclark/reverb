@@ -14851,3 +14851,20 @@ body.compensate-for-scrollbar {
 .hljs {
   padding: 0;
   background-color: transparent; }
+
+.client-logos {
+  width: auto;
+  height: 35px; }
+
+.brands-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+
+.brands-row div {
+  width: auto;
+  height: 35px;
+  margin-top: 1.5rem !important; }

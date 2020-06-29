@@ -2,3 +2,24 @@
 // user.scss
 // Use this to write your custom SCSS
 //
+
+.client-logos {
+  width: auto;
+  height: 35px;
+  // filter: grayscale(100%);
+  // opacity: .5;
+
+  &.apple {
+    // height: 50px; 
+  }
+}
+
+.brands-row {
+  display: flex;
+  justify-content: space-between;
+}
+.brands-row div {
+  width: auto;
+  height: 35px;
+  margin-top: 1.5rem !important;
+}
