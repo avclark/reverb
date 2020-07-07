@@ -23,3 +23,27 @@
   height: 35px;
   margin-top: 1.5rem !important;
 }
+
+.nav-link {
+  opacity: .6;
+  transition: all 0.2s ease;
+
+  &:hover {
+    opacity: 1;
+  }
+}
+
+.illustration-section::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  max-width: 100%;
+  height: 1323px;
+  background-image: url(../img/global/illustration_01.svg);
+  background-repeat: no-repeat;
+  background-size: auto;
+  left: 50%;
+  top: 0;
+  background-position: center top;
+  transform: translate(-50%);
+}

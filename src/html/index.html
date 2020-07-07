@@ -5,35 +5,40 @@
     "pageTitle": "Goodkit"
     })
   </head>
-  <body class="">
+  <body class="bg-light">
 
     <!-- MODALS -->
     @@include("partials/modals.html")
 
     <!-- NAVBAR -->
     @@include("partials/navbar.html", {
-    "classList": "navbar-light bg-light"
+    "classList": "navbar-dark bg-dark"
     })
 
     <!-- WELCOME -->
-    <section class="pt-6 pt-md-11 pb-6 pb-md-11 bg-light">
+    <section class="pt-6 pt-md-11 bg-dark">
       <div class="container-lg">
-        <div class="row justify-content-center">
-          <div class="col-md-10 col-lg-8 text-center">
+        <div class="row justify-content-center" data-aos="fade-up">
+          <div class="col-12 col-md-8 col-lg-7 text-center text-white">
 
-           <!-- Eyebrow -->
-           <h6 class="text-uppercase text-primary-light mb-5">
-            Taking Podcasts to eleven
-          </h6>
+            <!-- Preheading -->
+            <h6 class="text-uppercase text-warning mb-5">
+              The New Conerstone of Advisor Marketing
+            </h6>
 
             <!-- Heading -->
-            <h1 class="display-3 mb-4">
-              Ready to <span class="text-underline-warning">get serious</span> about podcasting?
+            <h1 class="display-3 mb-6">
+              Ready to get serious about podcasting?
             </h1>
 
+          </div>
+        </div>
+        <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-md-10 col-lg-8 text-center text-white">
+
             <!-- Text -->
-            <p class="font-size-lg text-muted">
-              Reverb works with advisors who are serious about building a quality brand, creating shows that matter and taking their business to the next level.
+            <p class="font-size-lg text-white-60 mb-6">
+              Reverb works with advisors who are serious about building a quality brand, creating shows that matter, and taking their business to the next level.
             </p>
 
             <!-- Buttons -->
@@ -51,313 +56,133 @@
       </div>
     </section>
 
-   <!-- SHAPE -->
-   <div class="position-relative">
-    <div class="shape shape-fluid-x shape-bottom text-light pb-15 pb-md-10">
-      <div class="shape-img pb-9 pb-md-15">
-        @@include("partials/shapes/angles/angle-bottom-left.svg")
-      </div>
-    </div>
-  </div>
-
-  <!-- TESTIMONIALS -->
-  <section class="py-10 py-md-12">
-    <div class="container-lg">
-      <div class="row align-items-center">
-        <div class="col-md-5">
-
-          <!-- Slider -->
-          <div class="position-relative mb-10 mb-md-0">
-
-            <!-- Decoration -->
-            <div class="position-absolute bottom-left text-primary-light mb-n9 ml-n8">
-              @@include("partials/decorations/decoration-2.svg")
-            </div>
-
-            <!-- Slider -->
-            <div class="flickity-buttons-adjacent flickity-buttons-bottom-right" data-flickity='{"fade": true, "imagesLoaded": true, "pageDots": false, "wrapAround": true}' id="testimonialsSlider">
-              <div class="w-100">
-
-                <!-- Image -->
-                <img class="w-100 h-auto" src="assets/img/coworking/avatar-tall-1.jpg" alt="..." data-aos="wipe-left">
-
-              </div>
-              <div class="w-100">
-
-                <!-- Image -->
-                <img class="w-100 h-auto" src="assets/img/coworking/avatar-tall-2.jpg" alt="...">
-
-              </div>
-              <div class="w-100">
-
-                <!-- Image -->
-                <img class="w-100 h-auto" src="assets/img/coworking/avatar-tall-3.jpg" alt="...">
-
-              </div>
-            </div>
-
-          </div>
-
-        </div>
-        <div class="col-md-7 col-xl-6 offset-xl-1 pt-md-12 pb-md-8">
-
-          <!-- Slider -->
-          <div class="flickity-soft-edges" data-flickity='{"asNavFor": "#testimonialsSlider", "draggable": false, "imagesLoaded": true, "pageDots": false, "prevNextButtons": false, "wrapAround": true}'>
-            <div class="col-12" data-aos="fade-up">
-
-              <!-- Blockquote -->
-              <blockquote>
-
-                <!-- Logo -->
-                <p class="img-fluid svg-shim text-stripe text-center mx-auto mb-6" style="max-width: 85px;">
-                  @@include("partials/brands/logotype/stripe.svg")
-                </p>
-
-                <!-- Text -->
-                <p class="h1 text-center mb-8">
-                  “I'll never create another office space from scratch. Goodkit's coworking solution is simpler and cheaper.”
-                </p>
-
-                <!-- Footer -->
-                <div class="d-flex align-items-center justify-content-center">
-
-                  <!-- Body -->
-                  <div class="ml-4 text-center">
-
-                    <!-- Title -->
-                    <p class="font-weight-bold mb-0">
-                      Graham Follets
-                    </p>
-
-                    <!-- Position -->
-                    <p class="small text-muted mt-n1 mb-0">
-                      COO at Stripe
-                    </p>
-
-                  </div>
-
-                </div>
-
-              </blockquote>
-
-            </div>
-            <div class="col-12">
-
-              <!-- Blockquote -->
-              <blockquote>
-
-                <!-- Logo -->
-                <p class="img-fluid svg-shim text-dribbble text-center mx-auto mb-6" style="max-width: 130px;">
-                  @@include("partials/brands/logotype/dribbble.svg")
-                </p>
-
-                <!-- Text -->
-                <p class="h1 text-center mb-8">
-                  “Goodkit's offices are insanely beautiful. They are a perfect balance of minimal, but still cozy and functional.”
-                </p>
-
-                <!-- Footer -->
-                <div class="d-flex align-items-center justify-content-center">
-
-                  <!-- Body -->
-                  <div class="ml-4 text-center">
-
-                    <!-- Title -->
-                    <p class="font-weight-bold mb-0">
-                      Tiffany Fyfe
-                    </p>
-
-                    <!-- Position -->
-                    <p class="small text-muted mt-n1 mb-0">
-                      Ops at Dribbble
-                    </p>
-
-                  </div>
-
-                </div>
-
-              </blockquote>
-
-            </div>
-            <div class="col-12">
-
-              <!-- Blockquote -->
-              <blockquote>
-
-                <!-- Logo -->
-                <p class="img-fluid svg-shim text-netflix text-center mx-auto mb-6" style="max-width: 102px;">
-                  @@include("partials/brands/logotype/netflix.svg")
-                </p>
-
-                <!-- Text -->
-                <p class="h1 text-center mb-8">
-                  “Finding the perfect office can burn up valuable hours. Make the simple choice and just join Goodkit's coworking.”
-                </p>
-
-                <!-- Footer -->
-                <div class="d-flex align-items-center justify-content-center">
-
-                  <!-- Body -->
-                  <div class="ml-4 text-center">
-
-                    <!-- Title -->
-                    <p class="font-weight-bold mb-0">
-                      Danielle Pilker
-                    </p>
-
-                    <!-- Position -->
-                    <p class="small text-muted mt-n1 mb-0">
-                      CTO of Netflix
-                    </p>
-
-                  </div>
-
-                </div>
-
-              </blockquote>
-
-            </div>
-          </div>
-
+    <!-- SHAPE -->
+    <div class="position-relative">
+      <div class="shape shape-fluid-x shape-bottom text-dark pb-17 pb-lg-18">
+        <div class="shape-img pb-8 pb-md-11">
+          @@include("partials/shapes/angles/angle-bottom-left.svg")
         </div>
       </div>
     </div>
-  </section>
 
-  <!-- BRANDS -->
-  <section class="pt-6 pt-md-8">
-    <div class="container-lg">
-      <div class="row">
-        <div class="col-12 text-center">
-
-          <!-- Heading -->
-          <h6 class="text-uppercase mb-6">
-            Experience with the world's leading brands
-          </h6>
-
-        </div>
-      </div>
-      <div class="row mt-n5 text-center brands-row">
-        <div class="">
-
-          <!-- Image -->
-          <div class="img-fluid svg-shim text-coinbase mx-auto">
-            <img class="client-logos apple" src="assets/img/global/clients_apple.png" alt="...">
-          </div>
-
-        </div>
-        <div class="">
-
-          <!-- Image -->
-          <div class="img-fluid svg-shim text-dribbble mx-auto">
-            <img class="client-logos buckingham" src="assets/img/global/clients_buckingham.png" alt="...">
-          </div>
-
-        </div>
-        <div class="">
-
-          <!-- Image -->
-          <div class="img-fluid svg-shim text-stripe mx-auto">
-            <img class="client-logos carson" src="assets/img/global/clients_carson.png" alt="...">
-          </div>
-
-        </div>
-        <div class="">
-
-          <!-- Image -->
-          <div class="img-fluid svg-shim text-pinterest mx-auto">
-            <img class="client-logos salesforce" src="assets/img/global/clients_salesforce.png" alt="...">
-          </div>
-
-        </div>
-        <div class="">
-
-          <!-- Image -->
-          <div class="img-fluid svg-shim text-netflix mx-auto">
-            <img class="client-logos dell" src="assets/img/global/clients_dell.png" alt="...">
-          </div>
-
-        </div>
-        <div class="">
-
-          <!-- Image -->
-          <div class="img-fluid svg-shim text-instagram mx-auto">
-            <img class="client-logos convertkit" src="assets/img/global/clients_convertkit.png" alt="...">
-          </div>
-
-        </div>
-      </div>
-    </div>
-  </section>
-
-    <!-- ABOUT -->
+    <!-- CLIENTS -->
     <section class="pt-11 pt-md-13">
       <div class="container-lg">
-        <div class="row align-items-center justify-content-between">
-          <div class="col-md-6">
+        <div class="row mx-n4 mb-9 mb-md-10">
+          <div class="col-6 col-md-3 px-4">
 
             <!-- Image -->
-            <img class="img-fluid mb-8 mb-md-0" src="assets/img/e-commerce/product.jpg" alt="...">
+            <img class="img-fluid rounded-top-left rounded-bottom-right shadow-lg mt-md-8" src="assets/img/global/hero-1.jpg" alt="..." data-aos="fade-up" data-aos-delay="125">
+
+            <!-- Image -->
+            <img class="img-fluid rounded-top-left rounded-bottom-right shadow-lg mt-5 d-md-none" src="assets/img/global/hero-2.jpg" alt="...">
 
           </div>
-          <div class="col-md-6 col-lg-5">
+          <div class="col-3 px-4 d-none d-md-block" data-aos="fade-up" data-aos-delay="150">
 
-            <!-- Heading -->
-            <h2 class="display-4 mb-4">
-              Begin earning from your very first day
-            </h2>
+            <!-- Image -->
+            <img class="img-fluid rounded-top-left rounded-bottom-right shadow-lg" src="assets/img/global/hero-2.jpg" alt="...">
 
-            <!-- Text -->
-            <p class="text-muted">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. In urna lectus, mattis non accumsan in, tempor dictum neque.
-            </p>
+            <!-- Image -->
+            <img class="img-fluid rounded-top-left rounded-bottom-right shadow-lg mt-5" src="assets/img/global/hero-3.jpg" alt="...">
 
-            <!-- Link -->
-            <a class="h6 text-uppercase text-decoration-none" href="#!">
-              Explore our tools <i class="fe fe-arrow-right ml-2"></i>
-            </a>
+          </div>
+          <div class="col-6 col-md-3 px-4">
 
+            <!-- Image -->
+            <img class="img-fluid rounded-top-left rounded-bottom-right shadow-lg mt-9" src="assets/img/global/hero-4.jpg" alt="..." data-aos="fade-up" data-aos-delay="200">
+
+          </div>
+          <div class="col-3 px-4 d-none d-md-block">
+
+            <!-- Image -->
+            <div class="position-relative mt-8">
+
+              <!-- Decoration -->
+              <div class="position-absolute top-right text-primary-light mt-n10 mt-lg-n8 mr-n12 mr-lg-n6">
+                @@include("partials/decorations/decoration-2.svg")
+              </div>
+
+              <!-- Image -->
+              <img class="position-relative img-fluid rounded-top-left rounded-bottom-right shadow-lg" src="assets/img/global/hero-5.jpg" alt="..." data-aos="fade-up" data-aos-delay="250">
+
+            </div>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- ABOUT -->
-    <section>
-      <div class="container-lg position-relative" style="z-index: 1;">
+    <!-- OUTLINE -->
+    <section class="pt-10 pb-11 pb-md-16">
+      <div class="container-lg">
+
+        <div class="row justify-content-center">
+          <div class="col-md-10 col-lg-7 text-center">
+
+            <!-- Preheading -->
+            <h6 class="text-uppercase text-primary-light mb-5">
+              How We Help
+            </h6>
+
+            <!-- Heading -->
+            <h2 class="display-4 mb-9 mb-md-11">
+              To grow yourself and rour firm, you have to <span class="text-underline-warning">consistently build a brand</span> that matters.
+            </h2>
+
+            <!-- <p class="font-size-h2 text-muted mb-9 mb-md-11">But there are problems...</p> -->
+
+          </div>
+        </div>
+
         <div class="row align-items-center justify-content-between">
-          <div class="col-md-5 order-md-1 pt-10 py-md-8">
+          <div class="col-md-5 col-lg-6 order-md-1">
 
             <!-- Image -->
-            <div class="position-relative">
+            <div class="position-relative mb-10 mb-md-0">
 
               <!-- Decoration -->
-              <div class="position-absolute bottom-right text-warning mb-n8 mr-n8">
+              <div class="position-absolute bottom-left text-primary-light ml-n8 mb-n8">
                 @@include("partials/decorations/decoration-2.svg")
               </div>
 
-              <!-- Image -->
-              <img class="img-fluid position-relative border border-7 border-white shadow-lg" src="assets/img/e-commerce/customer.jpg" alt="...">
+              <div class="card rounded-bottom-right border-top-5 border-primary">
+
+                <div class="card-body">
+  
+                  <!-- Title -->
+                  <h2 class="card-title">Reverb provides everything you need to build, launch, and grow a podcast — and your business.</h2>
+  
+                  <!-- Text -->
+                  <p class="card-text">We are committed to producing and growing excellent shows all while helping you stay focused on your core competency.</p>
+  
+                  <!-- Button -->
+                  <a class="btn btn-sm btn-primary" href="#!">Get Started</a>
+  
+                </div>
+              </div>
 
             </div>
 
+
           </div>
-          <div class="col-md-6 col-lg-5 order-md-0 py-10 py-md-12">
+          <div class="col-md-6 col-lg-5 order-md-0">
 
             <!-- Heading -->
-            <h2 class="display-4 mb-4">
-              Market your store across all channels.
+            <h2 class="display-5 mb-4">
+              But there are problems...
             </h2>
 
-            <!-- Text -->
-            <p class="text-muted">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. In urna lectus, mattis non accumsan in, tempor dictum neque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In urna lectus, mattis non accumsan in, tempor dictum neque.
-            </p>
-
-            <!-- Link -->
-            <a class="h6 text-uppercase text-decoration-none" href="#!">
-              Explore our tools <i class="fe fe-arrow-right ml-2"></i>
-            </a>
+            <!-- List -->
+            <ul class="list-checked list-checked-primary">
+              <li>Creating your own show takes time</li>
+              <li>You’re disappointed with the production</li>
+              <li>What you've tried isn't working</li>
+              <li>Growth can only come by getting lucky</li>
+              <li>You lack guidance on content</li>
+              <li>No one is listening</li>
+              <li>You lack time to consistently record</li>
+              <li>You have no long-term success plan</li>
+            </ul>
 
           </div>
         </div>
@@ -365,205 +190,241 @@
     </section>
 
     <!-- SHAPE -->
-    <div class="position-relative mt-n7 mt-md-n15">
-      <div class="shape shape-fluid-x shape-bottom text-white">
-        <div class="shape-img pb-9 pb-md-15">
-          @@include("partials/shapes/angles/angle-bottom-left.svg")
+    <div class="position-relative">
+      <div class="shape shape-fluid-x shape-top text-white">
+        <div class="shape-img pb-8">
+          @@include("partials/shapes/angles/angle-top-right.svg")
         </div>
       </div>
     </div>
 
-    <!-- FEATURES -->
-    <section class="pt-12 pt-md-18 pb-11 pb-md-16 bg-dark">
+    <!-- STEPS -->
+    <section class="pt-9 pt-md-11 bg-white">
       <div class="container-lg">
         <div class="row justify-content-center">
-          <div class="col-md-10 col-lg-8">
+          <div class="col-md-10 col-lg-8 text-center">
+
+            <!-- Preheading -->
+            <h6 class="text-uppercase text-primary mb-5">
+              Management fund
+            </h6>
 
             <!-- Heading -->
-            <h2 class="display-4 text-center text-white mb-4">
-              A better way to market your firm
+            <h2 class="display-4 mb-9">
+              Follow your users from initial visit through <span class="text-underline-warning">loyal evangelist</span>.
             </h2>
-
-            <!-- Text -->
-            <p class="text-white-80 text-center mb-9">
-              Content is the most difficult part of marketing your advisory firm. We are committed to simplifying that.
-            </p>
 
           </div>
         </div>
-        <div class="row mt-n8 mt-md-n9" data-aos="fade-up">
-          <div class="col-md-6 col-lg-4">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-8 col-lg-12">
 
-            <!-- Item -->
-            <div class="d-flex mt-8 mt-md-9">
+            <!-- Timeline -->
+            <ol class="timeline timeline-expand-lg timeline-warning mb-0">
+              <li class="timeline-item active">
 
-              <!-- Icon -->
-              <div class="icon text-primary-light">
-                @@include("partials/icons/duotone-icons/General/Shield-check.svg")
-              </div>
-
-              <!-- Body -->
-              <div class="ml-5">
-
-                <!-- Title -->
-                <p class="font-size-lg font-weight-bold text-white mb-1">
-                  Secure
-                </p>
+                <!-- Heading -->
+                <h2>
+                  Activation
+                </h2>
 
                 <!-- Text -->
-                <p class="font-size-sm text-white-60 mb-0">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. In urna lectus, mattis non accumsan in, tempor dictum neque. In hac habitasse platea dictumst.
+                <p class="text-muted mb-4">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. In urna lectus, mattis non accumsan in, tempor dictum neque.
                 </p>
 
-              </div>
+                <!-- Link -->
+                <a class="h4 font-family-sans-serif" href="#!">
+                  Activation Triggers <i class="fe fe-chevron-right ml-1"></i>
+                </a>
 
-            </div>
+              </li>
+              <li class="timeline-item active">
+
+                <!-- Heading -->
+                <h2>
+                  Engagement
+                </h2>
+
+                <!-- Text -->
+                <p class="text-muted mb-4">
+                  In urna lectus, mattis non accumsan in, tempor dictum neque. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </p>
+
+                <!-- Link -->
+                <a class="h4 font-family-sans-serif" href="#!">
+                  Feedback Loops <i class="fe fe-chevron-right ml-1"></i>
+                </a>
+
+              </li>
+              <li class="timeline-item active">
+
+                <!-- Heading -->
+                <h2>
+                  Retention
+                </h2>
+
+                <!-- Text -->
+                <p class="text-muted mb-4">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. In urna lectus, mattis non accumsan in, tempor dictum neque.
+                </p>
+
+                <!-- Link -->
+                <a class="h4 font-family-sans-serif" href="#!">
+                  Churn Minifiers <i class="fe fe-chevron-right ml-1"></i>
+                </a>
+
+              </li>
+            </ol>
 
           </div>
-          <div class="col-md-6 col-lg-4">
+        </div>
+      </div>
+    </section>
 
-            <!-- Item -->
-            <div class="d-flex mt-8 mt-md-9">
+    <!-- TESIMONIALS -->
+    <section class="pt-10 pt-md-12 bg-white">
+      <div class="container-lg position-relative" style="z-index: 1;">
+        <div class="row">
+          <div class="col-12">
 
-              <!-- Icon -->
-              <div class="icon text-primary-light">
-                @@include("partials/icons/duotone-icons/Communication/Chat#4.svg")
+            <!-- Card -->
+            <div class="card rounded-top-left-lg rounded-bottom-right-lg">
+              <div class="row no-gutters position-relative">
+                <div class="col-md-6">
+
+                  <!-- Slider -->
+                  <div class="card-img-slider rounded-top-left-lg overflow-hidden" data-flickity='{"fade": true, "imagesLoaded": true, "pageDots": false, "prevNextButtons": false, "asNavFor": "#testmonialsSlider", "draggable": false}'>
+                    <div class="w-100 bg-cover" style="background-image: url(assets/img/avatars/avatar-jumbo-1.jpg);">
+
+                      <!-- Image (placeholder) -->
+                      <img src="assets/img/avatars/avatar-jumbo-1.jpg" alt="..." class="img-fluid invisible">
+
+                    </div>
+                    <div class="w-100 bg-cover" style="background-image: url(assets/img/avatars/avatar-jumbo-2.jpg);">
+
+                      <!-- Image (placeholder) -->
+                      <img src="assets/img/avatars/avatar-jumbo-2.jpg" alt="..." class="img-fluid invisible">
+
+                    </div>
+                  </div>
+
+                </div>
+                <div class="col-md-6 position-static">
+                  <div class="card-body py-9 py-lg-11">
+
+                    <!-- Slider -->
+                    <div class="flickity-soft-edges flickity-buttons-adjacent flickity-buttons-rounded flickity-buttons-bottom-left position-static mx-n4" data-flickity='{"imagesLoaded": true, "pageDots": false, "wrapAround": true}' id="testmonialsSlider">
+                      <div class="col-12 text-center">
+
+                        <!-- Brand -->
+                        <div class="img-fluid svg-shim text-pinterest mx-auto mb-3 mb-md-5" style="max-width: 132px;">
+                          @@include("partials/brands/logotype/pinterest.svg")
+                        </div>
+
+                        <!-- Blockquote -->
+                        <blockquote>
+
+                          <!-- Text -->
+                          <p class="lead mb-5 mb-md-8">
+                            <q>
+                              Building a thriving business is hard enough without worrying about overhead. Do the smart thing and just use Goodkit.
+                            </q>
+                          </p>
+
+                          <!-- Footer -->
+                          <footer class="d-flex align-items-center justify-content-center">
+
+                            <!-- Avatar -->
+                            <div class="avatar avatar-sm">
+                              <img class="avatar-img rounded-circle" src="assets/img/avatars/avatar-2.jpg" alt="...">
+                            </div>
+
+                            <!-- Body -->
+                            <div class="ml-4 text-left">
+
+                              <!-- Title -->
+                              <h4 class="font-family-sans-serif mb-0">
+                                James Owens
+                              </h4>
+
+                              <!-- Position -->
+                              <p class="small text-muted mt-n1 mb-0">
+                                Ops at Pinterest
+                              </p>
+
+                            </div>
+
+                          </footer>
+
+                        </blockquote>
+
+                      </div>
+                      <div class="col-12 text-center">
+
+                        <!-- Brand -->
+                        <div class="img-fluid svg-shim text-stripe mx-auto mb-3 mb-md-5" style="max-width: 85px;">
+                          @@include("partials/brands/logotype/stripe.svg")
+                        </div>
+
+                        <!-- Blockquote -->
+                        <blockquote>
+
+                          <!-- Text -->
+                          <p class="lead mb-5 mb-md-8">
+                            <q>
+                              We wouldn't be able to run the majority of our business without the Goodkit platform helping us manage everything.
+                            </q>
+                          </p>
+
+                          <!-- Footer -->
+                          <footer class="d-flex align-items-center justify-content-center">
+
+                            <!-- Avatar -->
+                            <div class="avatar avatar-sm">
+                              <img class="avatar-img rounded-circle" src="assets/img/avatars/avatar-1.jpg" alt="...">
+                            </div>
+
+                            <!-- Body -->
+                            <div class="ml-4 text-left">
+
+                              <!-- Title -->
+                              <h4 class="font-family-sans-serif mb-0">
+                                Katie Williams
+                              </h4>
+
+                              <!-- Position -->
+                              <p class="small text-muted mt-n1 mb-0">
+                                COO at Stripe
+                              </p>
+
+                            </div>
+
+                          </footer>
+
+                        </blockquote>
+
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
               </div>
-
-              <!-- Body -->
-              <div class="ml-5">
-
-                <!-- Title -->
-                <p class="font-size-lg font-weight-bold text-white mb-1">
-                  Cross-platform
-                </p>
-
-                <!-- Text -->
-                <p class="font-size-sm text-white-60 mb-0">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. In urna lectus, mattis non accumsan in, tempor dictum neque. In hac habitasse platea dictumst.
-                </p>
-
-              </div>
-
-            </div>
-
-          </div>
-          <div class="col-md-6 col-lg-4">
-
-            <!-- Item -->
-            <div class="d-flex mt-9">
-
-              <!-- Icon -->
-              <div class="icon text-primary-light">
-                @@include("partials/icons/duotone-icons/General/Search.svg")
-              </div>
-
-              <!-- Body -->
-              <div class="ml-5">
-
-                <!-- Title -->
-                <p class="font-size-lg font-weight-bold text-white mb-1">
-                  Searchable
-                </p>
-
-                <!-- Text -->
-                <p class="font-size-sm text-white-60 mb-0">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. In urna lectus, mattis non accumsan in, tempor dictum neque. In hac habitasse platea dictumst.
-                </p>
-
-              </div>
-
-            </div>
-
-          </div>
-          <div class="col-md-6 col-lg-4">
-
-            <!-- Item -->
-            <div class="d-flex mt-8 mt-md-9">
-
-              <!-- Icon -->
-              <div class="icon text-primary-light">
-                @@include("partials/icons/duotone-icons/Code/Git#3.svg")
-              </div>
-
-              <!-- Body -->
-              <div class="ml-5">
-
-                <!-- Title -->
-                <p class="font-size-lg font-weight-bold text-white mb-1">
-                  Document History
-                </p>
-
-                <!-- Text -->
-                <p class="font-size-sm text-white-60 mb-0">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. In urna lectus, mattis non accumsan in, tempor dictum neque. In hac habitasse platea dictumst.
-                </p>
-
-              </div>
-
-            </div>
-
-          </div>
-          <div class="col-md-6 col-lg-4">
-
-            <!-- Item -->
-            <div class="d-flex mt-8 mt-md-9">
-
-              <!-- Icon -->
-              <div class="icon text-primary-light">
-                @@include("partials/icons/duotone-icons/Shopping/Wallet#3.svg")
-              </div>
-
-              <!-- Body -->
-              <div class="ml-5">
-
-                <!-- Title -->
-                <p class="font-size-lg font-weight-bold text-white mb-1">
-                  100% Free
-                </p>
-
-                <!-- Text -->
-                <p class="font-size-sm text-white-60 mb-0">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. In urna lectus, mattis non accumsan in, tempor dictum neque. In hac habitasse platea dictumst.
-                </p>
-
-              </div>
-
-            </div>
-
-          </div>
-          <div class="col-md-6 col-lg-4">
-
-            <!-- Item -->
-            <div class="d-flex mt-8 mt-md-9">
-
-              <!-- Icon -->
-              <div class="icon text-primary-light">
-                @@include("partials/icons/duotone-icons/General/Thunder-move.svg")
-              </div>
-
-              <!-- Body -->
-              <div class="ml-5">
-
-                <!-- Title -->
-                <p class="font-size-lg font-weight-bold text-white mb-1">
-                  Group Sync
-                </p>
-
-                <!-- Text -->
-                <p class="font-size-sm text-white-60 mb-0">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. In urna lectus, mattis non accumsan in, tempor dictum neque. In hac habitasse platea dictumst.
-                </p>
-
-              </div>
-
             </div>
 
           </div>
         </div>
       </div>
     </section>
-    
+
+    <!-- SHAPE -->
+    <div class="position-relative">
+      <div class="shape shape-fluid-x shape-top text-light pb-12">
+        <div class="shape-img pb-9 pb-md-14">
+          @@include("partials/shapes/angles/angle-top-right.svg")
+        </div>
+      </div>
+    </div>
 
     <!-- PRICING -->
     <section class="position-relative py-10 py-md-12 bg-light">
@@ -676,7 +537,10 @@
                   </div>
                   <div class="card-body text-center pt-0">
 
-                    
+                    <!-- Button -->
+                    <a class="btn btn-block btn-primary lift" href="#!">
+                      Get Started
+                    </a>
 
                   </div>
                 </div>
@@ -722,7 +586,10 @@
                   </div>
                   <div class="card-body text-center pt-0">
 
-                   
+                    <!-- Button -->
+                    <a class="btn btn-white lift" href="#!">
+                      Go Unlimited
+                    </a>
 
                   </div>
                 </div>
@@ -736,48 +603,9 @@
 
     </section>
 
-    <!-- CTA -->
-    <section class="bg-dark">
-      <div class="container-lg">
-        <div class="row align-items-center">
-          <div class="col-12">
-
-            <!-- Divider -->
-            <hr class="border-gray-900 mt-0 mb-8">
-
-          </div>
-          <div class="col-md">
-
-            <!-- Heading -->
-            <h1 class="text-white mb-0">
-              Let’s build something <span class="text-primary-light">together</span>.
-            </h1>
-
-            <!-- Text -->
-            <p class="text-white-60 mb-4 mb-md-0">
-              Build trustworthy websites in hours instead of weeks.
-            </p>
-
-          </div>
-          <div class="col-md-auto">
-
-            <!-- Button -->
-            <a class="btn btn-primary lift" href="#!">Learn More</a>
-
-          </div>
-          <div class="col-12">
-
-            <!-- Divider -->
-            <hr class="border-gray-900 mb-0 mt-8">
-
-          </div>
-        </div>
-      </div>
-    </section>
-
     <!-- FOOTER -->
     @@include("partials/footer.html", {
-    "classList": "bg-dark border-top border-gray-900"
+    "classList": "bg-dark border-multicolor"
     })
 
     <!-- JAVASCRIPT -->

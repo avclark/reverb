@@ -12,7 +12,8 @@ $gray-500: #8D9AAE !default;
 $gray-600: #575A7B !default;
 $gray-800: #342E6C !default;
 $gray-900: #2B265A !default;
-$black: #1B1642 !default;
+// $black: #1B1642 !default;
+$black: #182135 !default;
 
 $primary-dark: #564CAF !default;
 $primary: #6658EA !default;
@@ -204,7 +205,7 @@ $border-sizing: map-merge(
 // Font, line-height, and color for body text, headings, and more.
 
 // $font-family-sans-serif: 'Inter', -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
-$font-family-sans-serif: europa, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
+$font-family-sans-serif: sofia-pro, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
 $font-family-serif: $font-family-sans-serif;
 $font-family-base: $font-family-sans-serif !default;
 
