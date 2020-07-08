@@ -47,3 +47,18 @@
   background-position: center top;
   transform: translate(-50%);
 }
+
+.nav-logo {
+  height: auto;
+  width: 100%;
+}
+
+.navbar-brand img, .navbar-brand svg {
+  display: flex;
+  align-items: center;
+}
+
+.shadow-img-light {
+  -webkit-box-shadow: 2rem 2rem #f7faff !important;
+  box-shadow: 2rem 2rem #f7faff !important;
+}
