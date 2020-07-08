@@ -62,3 +62,21 @@
   -webkit-box-shadow: 2rem 2rem #f7faff !important;
   box-shadow: 2rem 2rem #f7faff !important;
 }
+
+.inline-flex {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hover-right {
+  transition: all 0.3s;
+
+  i {
+    transition: all 0.3s;
+  }
+
+  &:hover i {
+    margin-left: 2em !important;
+  }
+}

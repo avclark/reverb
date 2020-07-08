@@ -82,17 +82,17 @@ a.text-white-60:hover {
 // Underline
 
 [class*="text-underline-"] {
-  background: repeat-x left 1em / 1em .15em;
+  background: repeat-x left 1.2em / 1em .15em;
 }
 
 @each $color, $value in $theme-colors {
   .text-underline-#{$color} {
     @if $color=="warning" {
-      background-image: linear-gradient(to right, fade-out($value, .6));
+      background-image: linear-gradient(to right, fade-out($value, .5));
     }
 
     @else {
-      background-image: linear-gradient(to right, fade-out($value, .8));
+      background-image: linear-gradient(to right, fade-out($value, .1));
     }
   }
 }
