@@ -48,14 +48,22 @@
   transform: translate(-50%);
 }
 
-.nav-logo {
-  height: auto;
-  width: 100%;
-}
-
-.navbar-brand img, .navbar-brand svg {
+.nav-logo svg {
   display: flex;
   align-items: center;
+  width: 100%;
+  max-width: 100px;
+}
+
+.navbar-collapse .navbar-brand img, .navbar-collapse .navbar-brand svg {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 100px;
+}
+
+.nav-item:last-child a {
+  padding-right: 0;
 }
 
 .shadow-img-light {
@@ -79,4 +87,8 @@
   &:hover i {
     margin-left: 2em !important;
   }
+}
+
+.bg-gray-300 {
+  background-color: rgba(180,193,214, .5) !important;
 }
