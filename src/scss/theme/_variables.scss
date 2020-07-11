@@ -206,7 +206,7 @@ $border-sizing: map-merge(
 
 // $font-family-sans-serif: 'Inter', -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
 $font-family-sans-serif: sofia-pro, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
-$font-family-serif: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
+$font-family-serif: sofia-pro, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
 $font-family-base: $font-family-sans-serif !default;
 
 $font-size-base: 1.125rem !default; // 18px
@@ -238,7 +238,7 @@ $h1-line-height: 1.32 !default;
 $h3-line-height: 1.4 !default;
 $h4-line-height: 1.6 !default;
 
-$headings-font-family: $font-family-serif !default;
+$headings-font-family: $font-family-sans-serif !default;
 $headings-font-weight: $font-weight-bold !default;
 
 $display1-size: 5.125rem !default; // 82px
